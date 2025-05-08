@@ -1,0 +1,260 @@
+*{
+    font-family: "Rubik", sans-serif;
+}
+section{
+    height: 100vh;
+   
+}
+
+nav{
+    background-color: #ededed80 ;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 63px;
+    box-shadow: 0px 4px 4px 0px #00000025;
+
+    a{
+        color: #3c3c3c;
+        text-decoration: none;
+    }
+}
+
+.title{
+   
+        color: #ffffff;
+        font-size: 3.8rem;
+        text-transform: uppercase;
+}
+
+
+#navBarLinks{
+    display: flex;
+
+    li{
+        padding-left: 73px ;
+    }
+
+}
+
+#homeSection{
+    background-color:#0D1117;
+    padding-top: 65px ;
+    display: flex;
+    justify-content: space-between;
+
+    #homePhoto{
+        width: 40vw;
+        height: 100vh - 65px;
+        background-image: url(assets/photos/photo_home.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #homeTexts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+    
+        h2{
+            color:#C9D1D9;
+            font-weight: 400;
+            font-size: 2.4rem;
+            padding: 24px 0 64px 0;
+        }
+
+    }
+
+}
+
+
+#aboutSection{
+    background-color: #8B949E;
+    display: flex;
+    
+    #aboutMeTextsFlexContainer{
+        width: 60vw;
+        padding-top: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #aboutMeTextsFlexItem{
+            width: 80%;
+            
+        }
+    }
+
+    #aboutMePhoto{
+        background-image: url("assets/photos/about.jpg");
+        width: 40vw;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    p{
+        font-size: 1.75rem;
+        color: #ffffff;
+        padding: 45px 0 56px 0;
+    }
+
+}
+
+
+#skillsSection{
+    background-image: url("assets/photos/section_skills.jpg");
+    background-size: cover;
+
+    .overlay{
+        height: 100vh;
+        width: 100%;
+        background-color: #ffffff70;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.93rem;
+
+        h1{
+            color: #3c3c3c;
+            padding-bottom: 68px;
+        }
+
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 800px;
+            gap: 27px;
+            padding-bottom: 164px;
+        }
+
+        li{
+            background-color: #00000039;
+            padding: 12px 17px;
+            border-radius: 8px;
+            color: #ffffff;
+        }
+
+    }
+}
+
+#contactSection{
+    background-color: #64748b;
+    display: flex;
+
+    #contactTexts{
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            padding-bottom: 60px;
+            text-decoration: underline;
+        }
+
+        p{
+            color: #ffffff;
+            font-size: 1.56rem;
+            
+        }
+    }
+
+    #contactTextsChild{
+        width: 80%;
+        max-width: 700px;
+    }
+
+    #contactPhoto{
+        background-image: url("/assets/photos/section_skills.jpg");
+        width: 40vw;
+        background-size: cover;
+
+    }
+}
+
+.defaultButton{
+
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 8px 14px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    a{
+        padding-left: 11px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+}
+
+.downloadButton{
+    background-color: #6366f1 ;
+
+    a{
+        padding-left: 11px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+}
+.downloadButtonLight{
+    background-color: #6366f1 ;
+}
+.downloadButtonDark{
+    background-color: #3c3c3c;
+}
+.linkedinButton{
+    background-color:  #9ea1a3 ;
+    padding: 14px;
+    
+}
+.customLineHeight{
+    line-height: 2.4rem;
+}
+
+.emailAndPhone{
+    padding-top: 40px;
+    font-style: normal;
+    padding-bottom: 100px;
+
+    .contactItem{
+        display: flex;
+        padding-top: 12px;
+
+        p{
+            padding-left: 14px;
+        }
+        .emailIcon{
+            width: 32px;
+
+        }
+    }
+
+    
+}
+.socialMedia{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    
+    a{
+        background-color: #00000025;
+        padding: 12px;
+        border-radius: 8px;
+}
+
+img{
+    height: 28px;
+}
+
+}
