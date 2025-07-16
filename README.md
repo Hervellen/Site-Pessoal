@@ -9,7 +9,7 @@ O objetivo é evoluir esse site com foco em responsividade, performance e boas p
 
 - [x] Sessão "Sobre mim" com foto de formatura 🎓  
 - [x] Estrutura inicial criada com HTML, CSS e JavaScript 
-- [ ] Responsividade para dispositivos móveis  
+- [x] Responsividade para dispositivos móveis  
 - [ ] Sessão de projetos  
 - [ ] Formulário de contato
 
@@ -20,7 +20,7 @@ O objetivo é evoluir esse site com foco em responsividade, performance e boas p
 - HTML5  
 - CSS3  
 - JavaScript  
-*(Substitua por React, Vite, etc., se já estiver usando essas ferramentas)*
+
 
 ---
 
