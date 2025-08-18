@@ -1,0 +1,37 @@
+#skillsSection {
+    background-image: url("..//..//assets/photos/section_skills.jpg");
+    background-size: cover;
+  
+    .overlay {
+      height: 100vh;
+      width: 100%;
+      background-color: #ffffff70;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.93rem;
+  
+      h1 {
+        color: var(--primary-color);
+        padding-bottom: 68px;
+      }
+  
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 800px;
+        gap: 27px;
+        padding-bottom: 164px;
+      }
+  
+      li {
+        background-color: #00000039;
+        padding: 12px 17px;
+        border-radius: var(--border-radius-base);
+        color: var(--secondary-color);
+      }
+    }
+  }
+  

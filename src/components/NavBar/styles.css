@@ -1,0 +1,11 @@
+#navBarLinks {
+    display: flex;
+  
+    li {
+      padding-left: 73px;
+    }
+    li:last-child {
+      font-weight: bold;
+    }
+  }
+  

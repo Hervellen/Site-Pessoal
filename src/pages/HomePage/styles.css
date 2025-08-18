@@ -1,0 +1,30 @@
+#homeSection {
+    background-color: #0d1117;
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+  
+    #homePhoto {
+      width: 40vw;
+      height: 100vh - 65px;
+      background-image: url(..//..//assets/photos/photo_home.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  
+    #homeContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 60vw;
+  
+      h2 {
+        color: #c9d1d9;
+        font-weight: 400;
+        font-size: 2.4rem;
+        padding: 24px 0 64px 0;
+      }
+    }
+  }
+  

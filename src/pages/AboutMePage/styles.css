@@ -1,0 +1,33 @@
+#aboutSection {
+    background-color: #8b949e;
+    display: flex;
+  
+    #aboutMeTextsFlexContainer {
+      width: 60vw;
+      padding-top: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      #aboutMeTextsFlexItem {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 80%;
+      }
+    }
+  
+    #aboutMePhoto {
+      background-image: url("../../assets/photos/about.jpg");
+      width: 40vw;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    p {
+      font-size: 1.75rem;
+      color: var(--secondary-color);
+      padding: 45px 0 56px 0;
+    }
+  }
+  
